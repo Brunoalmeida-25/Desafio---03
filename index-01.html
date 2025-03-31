@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa de Formação em Tecnologia</title>
+    <link rel="stylesheet" href="style-03.css">
+    <script src="js-03.js"></script>
+</head>
+<body>
+    <div class="container">
+        <button class="back-button">Voltar</button>
+        <div class="header">
+            <h1>Formulário de Inscrição</h1>
+            <p>Preencha os dados abaixo para fazer sua inscrição no Programa Trilhas.</p>
+        </div>
+
+        <form id="inscricao-form">
+            <section class="participant-info">
+                <h2>Informações do Participante</h2>
+                <p>Já tem uma conta? <a href="about.html">Faça login</a></p>
+
+
+                <label for="user_id">ID do Usuário</label>
+                <input type="text" id="user_id" name="user_id" class="input-box" placeholder="Crie um ID de usuário" required>
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" class="input-box" placeholder="Crie uma senha" required>
+
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" name="nome" class="input-box" placeholder="Digite seu nome completo" required>
+
+                <label for="data_nascimento">Data de Nascimento</label>
+                <input type="date" id="data_nascimento" name="data_nascimento" class="input-box" required>
+
+                <label for="cpf">CPF</label>
+                <input type="text" id="cpf" name="cpf" class="input-box" placeholder="Digite seu CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" class="input-box" placeholder="Digite seu e-mail" required>
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" class="input-box" placeholder="Digite seu telefone" pattern="\(\d{2}\) \d{5}-\d{4}" required>
+            </section>
+
+            <section class="address">
+                <h2>Endereço Residencial</h2>
+
+                <label for="cep">CEP</label>
+                <input type="text" id="cep" name="cep" class="input-box" placeholder="Digite seu CEP" pattern="\d{5}-\d{3}" required>
+
+                <label for="rua">Rua</label>
+                <input type="text" id="rua" name="rua" class="input-box" placeholder="Digite sua rua" required>
+
+                <label for="numero">Número</label>
+                <input type="text" id="numero" name="numero" class="input-box" placeholder="Digite o número" required>
+
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade" name="cidade" class="input-box" placeholder="Digite sua cidade" required>
+
+                <label for="estado">Estado</label>
+                <select id="estado" name="estado" class="input-box" required>
+                    <option value="">Selecione</option>
+                    <option value="MA">MA</option>
+                    <option value="SP">SP</option>
+                    <option value="RJ">RJ</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </section>
+
+            <section class="uploads">
+                <h2>Envio de Documentos</h2>
+
+                <label for="documento">Documento de Identidade</label>
+                <input type="file" id="documento" name="documento" class="input-box" class="file-upload" accept=".pdf,.jpg,.png" required>
+
+                <label for="comprovante_residencia">Comprovante de Residência</label>
+                <input type="file" id="comprovante_residencia" name="comprovante_residencia" class="input-box" class="file-upload" accept=".pdf,.jpg,.png" required>
+            </section>
+
+            <section class="learning-trails">
+                <h2>Trilhas de Aprendizagem</h2>
+                <legend>Escolha sua trilha</legend>
+                <fieldset class="trilhas">
+                    <label><input type="radio" name="trilha" value="front-end" required> Programação Frontend</label>
+                    <label><input type="radio" name="trilha" value="back-end"> Programação Backend</label>
+                    <label><input type="radio" name="trilha" value="games"> Programação de Jogos</label>
+                    <label><input type="radio" name="trilha" value="design"> Design e Experiência</label>
+                    <label><input type="radio" name="trilha" value="data-science"> Ciência de Dados</label>
+                </fieldset>
+            </section>
+
+            <section class="terms">
+                <label>
+                    <input type="checkbox" name="terms" required> Declaro que li e concordo com os Termos e Condições e com a Política de Privacidade.
+                </label>
+            </section>
+
+            <div class="submit-button">
+                <button type="submit">Enviar Inscrição</button>
+                <button type="button" id="salvar-dados">Salvar Informações</button>
+            </div>
+        </form>
+        <img src="boneco.png" alt="imagem da logo">
+    </div>
+
+    <script src="js-03.js"></script>
+</body>
+</html>

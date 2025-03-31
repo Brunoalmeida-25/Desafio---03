@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style-03.css">
+    <script src="js-03.js"></script>
+
+</head>
+<body>
+    <div class="container02">
+        <h1>Login</h1>
+        <form onsubmit="return validarLogin()">
+            <label>ID do Usuário</label>
+            <input type="text" id="login_user" required>
+
+            <label>Senha</label>
+            <input type="password" id="login_senha" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+    <script>
+        function validarLogin() {
+            const dadosSalvos = JSON.parse(localStorage.getItem("dadosInscricao"));
+            const user = document.getElementById("login_user").value;
+            const senha = document.getElementById("login_senha").value;
+    
+            if (!dadosSalvos || user !== dadosSalvos.user_id || senha !== dadosSalvos.senha) {
+                alert("Login inválido!");
+                return false;
+            }
+    
+            alert("Login bem-sucedido!");
+            window.location.href = "index-01.html"; // Redireciona para a página de inscrição
+            return false;
+        }
+    </script>
+</body>
+</html>
