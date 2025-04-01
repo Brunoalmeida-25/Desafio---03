@@ -9,11 +9,11 @@ Descrição 📝
  Login com validação de usuário e senha 🔑
  Tecnologias utilizadas 💻
 
- HTML5 📄 
- CSS3 🎨 
- JavaScript 🤖
- Armazenamento local 💻 
- Instalação 📦 
+1 HTML5 📄 
+2 CSS3 🎨 
+3 JavaScript 🤖
+4 Armazenamento local 💻 
+5 Instalação 📦 
 
  Clone o repositório para seu diretório local 📁 
  Abra o arquivo index.htmlno seu navegador 🌐 
@@ -26,4 +26,5 @@ Descrição 📝
  Participação 🤝
  
  🟢 Sara Costa Marques
+ 
  🟢 Bruno Pereira Almeida 
