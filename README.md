@@ -7,19 +7,28 @@ O Programa de Formação em Tecnologia é um projeto que visa fornecer uma plata
 Funcionalidades 🎯
 
 Formulário de inscrição com campos para informações pessoais, endereço e documentos 📝
+
 Validação de campos obrigatórios e formato de e-mail e senha 🔒
+
 Salvar informações do participante no LocalStorage 💾
+
 Login com validação de usuário e senha 🔑
 Tecnologias utilizadas 💻
 
 HTML5 📄
+
 CSS3 🎨
+
 JavaScript 🤖
+
 Armazenamento local 💻
+
 Instalação 📦
 
 Clone o repositório para seu diretório local 📁
+
 Abra o arquivo index.htmlno seu navegador 🌐
+
 Uso 📚
 
 Preencha o formulário de inscrição com suas informações 📝
