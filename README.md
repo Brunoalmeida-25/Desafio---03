@@ -11,11 +11,15 @@ Login com validação de usuário e senha 🔑
 Tecnologias utilizadas 💻
 
 HTML5 📄 
+
 CSS3 🎨 
+
 JavaScript 🤖
+
 Armazenamento local 💻 
+
 Instalação 📦 
-jjjjjjj
+
 
 Clone o repositório para seu diretório local 📁 
 Abra o arquivo index.htmlno seu navegador 🌐 
