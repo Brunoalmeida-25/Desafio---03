@@ -14,7 +14,7 @@ Tecnologias utilizadas 💻
 - HTML5 📄
 - CSS3 🎨
 - JavaScript 🤖
-- LocalStorage 💻
+- LocalStorage 💻 
 
 Instalação 📦
 1. Clone o repositório para o seu diretório local 📁
