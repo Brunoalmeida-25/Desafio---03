@@ -15,6 +15,7 @@ CSS3 🎨
 JavaScript 🤖
 Armazenamento local 💻 
 Instalação 📦 
+jjjjjjj
 
 Clone o repositório para seu diretório local 📁 
 Abra o arquivo index.htmlno seu navegador 🌐 
@@ -27,4 +28,5 @@ Insira seu usuário e senha para acessar a plataforma 🔓
 Participação 🤝
  
 🟢 Sara Costa Marques
+
 🟢 Bruno Pereira Almeida 
