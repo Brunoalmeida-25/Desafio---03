@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #7e7e7e;
+    background-color: #080707;
     margin: 0;
     padding: 0;
     display: flex;
@@ -76,7 +76,7 @@ body {
   }
   
   button:hover {
-    background: #33e43f;
+    background: #1b5e20;
   }
   
   .hidden {
